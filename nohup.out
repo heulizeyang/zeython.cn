@@ -1,0 +1,100 @@
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.
+INFO  Start processing
+ERROR Process failed: layout/index.ejs
+SyntaxError: Block-scoped declarations (let, const, function, class) not yet supported outside strict mode in /home/ubuntu/blog/themes/aath/layout/index.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+    at Function (native)
+    at Object.Template.compile (/home/ubuntu/blog/node_modules/ejs/lib/ejs.js:549:12)
+    at Object.compile (/home/ubuntu/blog/node_modules/ejs/lib/ejs.js:358:16)
+    at Function.ejsRenderer.compile (/home/ubuntu/blog/node_modules/hexo-renderer-ejs/lib/renderer.js:11:14)
+    at View._precompile (/home/ubuntu/blog/node_modules/hexo/lib/theme/view.js:119:29)
+    at View (/home/ubuntu/blog/node_modules/hexo/lib/theme/view.js:13:8)
+    at new Theme._View.View (/home/ubuntu/blog/node_modules/hexo/lib/theme/index.js:37:10)
+    at Theme.setView (/home/ubuntu/blog/node_modules/hexo/lib/theme/index.js:71:20)
+    at /home/ubuntu/blog/node_modules/hexo/lib/theme/processors/view.js:14:14
+    at tryCatcher (/home/ubuntu/blog/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/ubuntu/blog/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/home/ubuntu/blog/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/home/ubuntu/blog/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/home/ubuntu/blog/node_modules/bluebird/js/release/promise.js:693:18)
+    at Promise._fulfill (/home/ubuntu/blog/node_modules/bluebird/js/release/promise.js:638:18)
+    at Promise._resolveCallback (/home/ubuntu/blog/node_modules/bluebird/js/release/promise.js:432:57)
+    at Promise._settlePromiseFromHandler (/home/ubuntu/blog/node_modules/bluebird/js/release/promise.js:524:17)
+    at Promise._settlePromise (/home/ubuntu/blog/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/home/ubuntu/blog/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/home/ubuntu/blog/node_modules/bluebird/js/release/promise.js:693:18)
+    at Promise._fulfill (/home/ubuntu/blog/node_modules/bluebird/js/release/promise.js:638:18)
+    at /home/ubuntu/blog/node_modules/bluebird/js/release/nodeback.js:42:21
+INFO  Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.
+ERROR Asset render failed: css/main.css
+Error: /home/ubuntu/blog/themes/next/source/css/_common/components/highlight/highlight.styl:78:30
+   74| 
+   75|   .gutter pre {
+   76|     padding-left: 10px
+   77|     padding-right: 10px
+   78|     color: $highlight-gutter.color
+------------------------------------^
+   79|     text-align: right
+   80|     background-color: $highlight-gutter.bg-color
+   81|   }
+
+$highlight-gutter has no property .color
+    at ".gutter pre " (/home/ubuntu/blog/themes/next/source/css/_common/components/highlight/highlight.styl:74:4)
+    at ".highlight " (/home/ubuntu/blog/themes/next/source/css/_common/components/highlight/highlight.styl:38:2)
+
+    at Evaluator.visitMember (/home/ubuntu/blog/node_modules/stylus/lib/visitor/evaluator.js:351:11)
+    at Evaluator.Visitor.visit (/home/ubuntu/blog/node_modules/stylus/lib/visitor/index.js:28:40)
+    at Evaluator.visit (/home/ubuntu/blog/node_modules/stylus/lib/visitor/evaluator.js:160:18)
+    at Evaluator.visitExpression (/home/ubuntu/blog/node_modules/stylus/lib/visitor/evaluator.js:644:26)
+    at Evaluator.Visitor.visit (/home/ubuntu/blog/node_modules/stylus/lib/visitor/index.js:28:40)
+    at Evaluator.visit (/home/ubuntu/blog/node_modules/stylus/lib/visitor/evaluator.js:160:18)
+    at Evaluator.visitExpression (/home/ubuntu/blog/node_modules/stylus/lib/visitor/evaluator.js:644:26)
+    at Evaluator.Visitor.visit (/home/ubuntu/blog/node_modules/stylus/lib/visitor/index.js:28:40)
+    at Evaluator.visit (/home/ubuntu/blog/node_modules/stylus/lib/visitor/evaluator.js:160:18)
+    at Evaluator.visitProperty (/home/ubuntu/blog/node_modules/stylus/lib/visitor/evaluator.js:687:22)
+    at Evaluator.Visitor.visit (/home/ubuntu/blog/node_modules/stylus/lib/visitor/index.js:28:40)
+    at Evaluator.visit (/home/ubuntu/blog/node_modules/stylus/lib/visitor/evaluator.js:160:18)
+    at Evaluator.visitBlock (/home/ubuntu/blog/node_modules/stylus/lib/visitor/evaluator.js:720:39)
+    at Evaluator.Visitor.visit (/home/ubuntu/blog/node_modules/stylus/lib/visitor/index.js:28:40)
+    at Evaluator.visit (/home/ubuntu/blog/node_modules/stylus/lib/visitor/evaluator.js:160:18)
+    at Evaluator.visitGroup (/home/ubuntu/blog/node_modules/stylus/lib/visitor/evaluator.js:261:22)
+    at Evaluator.Visitor.visit (/home/ubuntu/blog/node_modules/stylus/lib/visitor/index.js:28:40)
+    at Evaluator.visit (/home/ubuntu/blog/node_modules/stylus/lib/visitor/evaluator.js:160:18)
+    at Evaluator.visitBlock (/home/ubuntu/blog/node_modules/stylus/lib/visitor/evaluator.js:720:39)
+    at Evaluator.Visitor.visit (/home/ubuntu/blog/node_modules/stylus/lib/visitor/index.js:28:40)
+    at Evaluator.visit (/home/ubuntu/blog/node_modules/stylus/lib/visitor/evaluator.js:160:18)
+    at Evaluator.visitGroup (/home/ubuntu/blog/node_modules/stylus/lib/visitor/evaluator.js:261:22)
+INFO  Start processing
+ERROR Process failed: layout/index.ejs
+SyntaxError: Block-scoped declarations (let, const, function, class) not yet supported outside strict mode in /home/ubuntu/blog/themes/aath/layout/index.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+    at Function (native)
+    at Object.Template.compile (/home/ubuntu/blog/node_modules/ejs/lib/ejs.js:549:12)
+    at Object.compile (/home/ubuntu/blog/node_modules/ejs/lib/ejs.js:358:16)
+    at Function.ejsRenderer.compile (/home/ubuntu/blog/node_modules/hexo-renderer-ejs/lib/renderer.js:11:14)
+    at View._precompile (/home/ubuntu/blog/node_modules/hexo/lib/theme/view.js:119:29)
+    at View (/home/ubuntu/blog/node_modules/hexo/lib/theme/view.js:13:8)
+    at new Theme._View.View (/home/ubuntu/blog/node_modules/hexo/lib/theme/index.js:37:10)
+    at Theme.setView (/home/ubuntu/blog/node_modules/hexo/lib/theme/index.js:71:20)
+    at /home/ubuntu/blog/node_modules/hexo/lib/theme/processors/view.js:14:14
+    at tryCatcher (/home/ubuntu/blog/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/ubuntu/blog/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/home/ubuntu/blog/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/home/ubuntu/blog/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/home/ubuntu/blog/node_modules/bluebird/js/release/promise.js:693:18)
+    at Promise._fulfill (/home/ubuntu/blog/node_modules/bluebird/js/release/promise.js:638:18)
+    at Promise._resolveCallback (/home/ubuntu/blog/node_modules/bluebird/js/release/promise.js:432:57)
+    at Promise._settlePromiseFromHandler (/home/ubuntu/blog/node_modules/bluebird/js/release/promise.js:524:17)
+    at Promise._settlePromise (/home/ubuntu/blog/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/home/ubuntu/blog/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/home/ubuntu/blog/node_modules/bluebird/js/release/promise.js:693:18)
+    at Promise._fulfill (/home/ubuntu/blog/node_modules/bluebird/js/release/promise.js:638:18)
+    at /home/ubuntu/blog/node_modules/bluebird/js/release/nodeback.js:42:21
+INFO  Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.
